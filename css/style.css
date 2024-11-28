@@ -1,0 +1,46 @@
+.navbar a{
+    color: white;
+}
+#header{
+    display: flex;
+    position: relative;
+    border: 3px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3282f6;
+}
+#header img{
+    position: relative;
+    display: flex;
+    width: 306px;
+    border-radius: 50%;
+    height: 306px;
+    justify-content: center;
+    border: 3px solid black;
+}
+#header-name{
+    border: 3px solid;
+    width: 50%;
+    background-color: white;
+}
+#header-details{
+    border: 3px solid;
+    background-color: white;
+    padding: 3px;
+}
+.contrainer-img img{
+    border: 2px solid black;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #910d25;
+    color: white;
+    justify-content: center;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+}
